@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "300949660005",
+    "firebase_url": "https://trafficchecking-821cb.firebaseio.com",
+    "project_id": "trafficchecking-821cb",
+    "storage_bucket": "trafficchecking-821cb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:300949660005:android:56bd51d378ecae65",
+        "android_client_info": {
+          "package_name": "dav.com.tracfficchecking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "300949660005-uk41k3lphui2mleam5tgpc8n4imglvoc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dav.com.tracfficchecking",
+            "certificate_hash": "7207bf20e45005066f553358555cb804aa2ad3d1"
+          }
+        },
+        {
+          "client_id": "300949660005-a1jkamf6tgfmfh9c13suiaic61akflc4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEaugC9EIGIbZFOKRIRSAzbHLeeNVuFlk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "300949660005-a1jkamf6tgfmfh9c13suiaic61akflc4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

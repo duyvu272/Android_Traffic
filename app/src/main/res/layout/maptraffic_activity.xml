@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="dav.com.tracfficchecking.TrafficMap"
+    android:id="@+id/rootid">
+
+
+    <LinearLayout
+        android:id="@+id/profile_header"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_65sdp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:background="#80008080"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/circleView"
+                android:layout_width="74dp"
+                android:layout_height="46dp"
+                android:layout_gravity="left"
+                android:layout_marginLeft="30dp"
+                android:onClick="sublimation"
+                android:src="@drawable/trafficiocn" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cv_uploadReport"
+                android:layout_width="74dp"
+                android:layout_height="46dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="60dp"
+                android:onClick="postProblem"
+                android:src="@drawable/caution" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cv_communication"
+                android:layout_width="74dp"
+                android:layout_height="46dp"
+                android:layout_gravity="right"
+                android:layout_marginLeft="55dp"
+                android:onClick="communication"
+                android:src="@drawable/communication" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_15sdp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/profile_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="30dp"
+                android:layout_marginStart="45dp"
+                android:paddingTop="@dimen/_1sdp"
+                android:text="@string/profile_name"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/profile_name1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="95dp"
+                android:paddingTop="@dimen/_1sdp"
+                android:text="@string/profile_name1"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_12sdp" />
+
+            <TextView
+                android:id="@+id/profile_name2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="60dp"
+                android:paddingTop="@dimen/_1sdp"
+                android:text="@string/profile_name2"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/_12sdp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_34sdp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/search"
+            android:layout_width="285dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="@dimen/_1sdp"
+            android:layout_weight="0.87"
+            android:background="@drawable/edittext_bg"
+            android:ems="10"
+            android:hint="@string/search_location"
+            android:inputType="textPersonName"
+            android:paddingLeft="10dp" />
+
+
+        <ImageButton
+            android:id="@+id/btn_search_map"
+            android:layout_width="35dp"
+            android:layout_height="29dp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:background="@drawable/search2"
+
+
+
+            />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/profile_header"
+        android:orientation="vertical">
+
+        <fragment
+
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/_35sdp"
+            tools:layout_editor_absoluteX="8dp"
+            tools:layout_editor_absoluteY="8dp" />
+        <RelativeLayout
+            android:id="@+id/belowlayout"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="252dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true">
+
+            <Button
+                android:id="@+id/id_road"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center_horizontal"
+                android:background="#359c5e"
+                android:text="Road"
+                android:onClick="onRoadClick"
+                android:textColor="#ffffff"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="17dp" />
+
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/belowRoad"
+            android:layout_width="50dp"
+            android:layout_height="55dp"
+            android:orientation="horizontal"
+            android:layout_marginBottom="200dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="@dimen/_270sdp">
+            <ImageButton
+                android:id="@+id/id_suget"
+                android:layout_width="40dp"
+                android:layout_height="50dp"
+                android:layout_gravity="right|center_horizontal"
+                android:background="@drawable/direction"
+                android:onClick=""
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="17dp" />
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

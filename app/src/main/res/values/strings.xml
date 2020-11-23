@@ -1,0 +1,154 @@
+<resources>
+    <string name="app_name" formatted="true">Tracffic Checking</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="email_hint">Email aaa</string>
+    <string name="password_hint">Password</string>
+    <string name="login_button">LOGIN</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="country_location">Da Nang</string>
+    <string name="profile_names">Display name</string>
+    <string name="duyvu_smile">Developer</string>
+    <string name="profile_name">Alert</string>
+    <string name="profile_name1">Report</string>
+    <string name="profile_name2">Communication</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_chat">Chat</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="menu_contact">Contact</string>
+    <string name="menu_online">Online</string>
+    <string name="menu_setting">Setting</string>
+    <string name="menu_logout">Logout</string>
+    <string name="navigation_drawer_open">Drawer Open</string>
+    <string name="navigation_drawer_close">Drawer Closed</string>
+    <string name="action_setting">Edit Profile</string>
+    <string name="edit_profile_name">Name</string>
+    <string name="edit_profile_city">Country</string>
+    <string name="edit_profile_phone">Phone number</string>
+    <string name="edit_profile_hobby">Hobby</string>
+    <string name="select_date">Date</string>
+    <string name="save_edit">Save edit</string>
+    <string name="textinfo">Click here to view larger image</string>
+    <string name="action_settings">Setting</string>
+    <string name="sign_up_success"></string>
+    <string name="search_location">Search</string>
+    <string name="phone_disclaimer">When you click the button to verify your phone number an SMS will be sent to you, rates may be applied to you</string>
+    <string name="now_logged_in">Now you are logged In</string>
+    <string name="signed_success">signed in succesfully</string>
+    <string name="sign_credential_fail">failed to sign in with credential</string>
+
+    <string name="map_type_none">None</string>
+    <string name="map_type_normal">Normal</string>
+    <string name="map_type_terrain">Terrain</string>
+    <string name="map_type_satellite">Satellite</string>
+    <string name="map_type_hybrid">Hybird</string>
+    <string name="heatmap">Heatmaps</string>
+    <string name="logout">Sign out</string>
+    <string name="manage_acount">Manage Account</string>
+    <string name="submit">Submit</string>
+    <string name="maptype">Map types</string>
+    <string-array name="city_array">
+        <item>	An Giang </item>
+        <item>	Bà Rịa - Vũng Tàu </item>
+        <item>	Bạc Liêu </item>
+        <item>	Bắc Giang </item>
+        <item>	Bắc Kạn	</item>
+        <item>	Bắc Ninh</item>
+        <item>	Bến Tre	</item>
+        <item>	Bình Dương </item>
+        <item>	Bình Định </item>
+        <item>	Bình Phước </item>
+        <item>	Bình Thuận </item>
+        <item>	Cà Mau	</item>
+        <item>	Cao Bằng</item>
+        <item>	Cần Thơ	</item>
+        <item>	Đà Nẵng	</item>
+        <item>	Đắk Lắk	</item>
+        <item>	Đắk Nông </item>
+        <item>	Điện Biên </item>
+        <item>	Đồng Nai </item>
+        <item>	Đồng Tháp </item>
+        <item>	Gia Lai	</item>
+        <item>	Hà Giang </item>
+        <item>	Hà Nam	</item>
+        <item>	Hà Nội	</item>
+        <item>	Hà Tĩnh	</item>
+        <item>	Hải Dương </item>
+        <item>	Hải Phòng </item>
+        <item>	Hậu Giang </item>
+        <item>	Hòa Bình </item>
+        <item>	Hưng Yên </item>
+        <item>	Kiên Giang </item>
+        <item>	Kon Tum	</item>
+        <item>	Khánh Hòa </item>
+        <item>	Lai Châu </item>
+        <item>	Lạng Sơn </item>
+        <item>	Lào Cai	</item>
+        <item>	Lâm Đồng	</item>
+        <item>	Long An	</item>
+        <item>	Nam Định	</item>
+        <item>	Ninh Bình	</item>
+        <item>	Ninh Thuận	</item>
+        <item>	Nghệ An	</item>
+        <item>	Phú Thọ	</item>
+        <item>	Phú Yên	</item>
+        <item>	Quảng Bình	</item>
+        <item>	Quảng Nam	</item>
+        <item>	Quảng Ninh	</item>
+        <item>	Quảng Ngãi	</item>
+        <item>	Quảng Trị	</item>
+        <item>	Sóc Trăng	</item>
+        <item>	Sơn La	</item>
+        <item>	Tây Ninh</item>
+        <item>	Tiền Giang</item>
+        <item>	TP HCM	</item>
+        <item>	Tuyên Quang	</item>
+        <item>	Thái Bình</item>
+        <item>	Thái Nguyên</item>
+        <item>	Thanh Hóa</item>
+        <item>	Thừa Thiên Huế</item>
+        <item>	Trà Vinh</item>
+        <item>	Vĩnh Long</item>
+        <item>	Vĩnh Phúc</item>
+        <item>	Yên Bái	</item>
+    </string-array>
+
+
+    //login log out
+    <string name="action_sign_in_short">Register</string>
+    <string name="email">Email</string>
+    <string name="username">User name</string>
+    <string name="phonenumber">Phone</string>
+    <string name="minimum_password">Password too short, enter minimum 6 characters!</string>
+    <string name="auth_failed">Authentication failed, check your email and password or sign up</string>
+    <string name="change_email">Change Email</string>
+    <string name="change_password">Change Password</string>
+    <string name="send_password_reset_email">Send Password reset email</string>
+    <string name="remove_user">Remove user</string>
+    <string name="new_pass">New Password</string>
+
+    <string name="title_activity_login">Sign in</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_current_password">Current password</string>
+    <string name="hint_new_password">New password</string>
+    <string name="hint_renew_password">Repeat new password</string>
+    <string name="hint_repassword">re-Password</string>
+    <string name="hint_name">Fullname</string>
+    <string name="btn_login">LOGIN</string>
+    <string name="btn_link_to_register">Not a member? Get registered now!</string>
+    <string name="btn_link_to_login">Already registered. Login Me!</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+    <string name="btn_forgot_password">Forgot your password?</string>
+    <string name="btn_reset_password">Reset Password</string>
+    <string name="btn_change_password">Change Password</string>
+    <string name="btn_back"><![CDATA[<< Back]]></string>
+    <string name="hint_new_email">New Email</string>
+    <string name="btn_change">Change</string>
+    <string name="btn_send">Send</string>
+    <string name="btn_remove">Remove</string>
+    <string name="btn_sign_out">Sign Out</string>
+    <string name="lbl_forgot_password">Forgot password?</string>
+    <string name="lbl_change_password">Change password</string>
+    <string name="forgot_password_msg">We just need your registered Email Id to sent you password reset instructions.</string>
+    <string name="button_menu_list">&#8942;</string>
+</resources>

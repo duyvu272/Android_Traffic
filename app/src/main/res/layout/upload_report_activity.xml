@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context="dav.com.tracfficchecking.UploadReport">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:id="@+id/t"
+        android:layout_margin="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_9sdp">
+
+        <EditText
+            android:id="@+id/txt_comment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:editable="true"
+            android:ems="10"
+            android:enabled="true"
+            android:gravity="top"
+            android:hint="Enter your content"
+            android:inputType="textMultiLine"
+            android:isScrollContainer="true"
+            android:maxLines="3"
+            android:minLines="1" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:layout_below="@+id/t"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <EditText
+            android:id="@+id/txt_locationPost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_marginLeft="@dimen/_5sdp"
+            android:hint="Location" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/t1"
+        android:layout_marginTop="@dimen/_20sdp">
+        <ImageView
+            android:id="@+id/iv_LoadImage"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_weight="0.60"
+            app:srcCompat="@drawable/noimage" />
+
+        <Button
+            android:id="@+id/btn_chooseImage"
+            style="@android:style/Widget.Material.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/ShowImageView"
+            android:layout_gravity="center"
+            android:layout_marginTop="18dp"
+            android:elevation="3dp"
+            android:gravity="center_vertical"
+            android:text="Choose Image"
+            tools:targetApi="m" />
+
+        <Button
+            android:id="@+id/btn_upload"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Submit"
+            tools:targetApi="lollipop" />
+
+    </LinearLayout>
+
+
+
+
+    </RelativeLayout>

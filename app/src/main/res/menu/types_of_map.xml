@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="dav.com.tracfficchecking.TrafficMap">
+    <item
+        android:id="@+id/maptype"
+        android:title="@string/maptype">
+        <menu>
+            <item
+                android:id="@+id/mapTypeNone"
+                android:title="@string/map_type_none"/>
+            <item
+                android:id="@+id/mapTypeNormal"
+                android:title="@string/map_type_normal"/>
+            <item
+                android:id="@+id/mapTypeTerrain"
+                android:title="@string/map_type_terrain"/>
+            <item
+                android:id="@+id/mapTypeSatellite"
+                android:title="@string/map_type_satellite"/>
+            <item
+                android:id="@+id/mapTypeHybrid"
+                android:title="@string/map_type_hybrid"/>
+            <item
+                android:id="@+id/heatMap"
+                android:title="@string/heatmap"/>
+
+        </menu>
+    </item>
+        <item
+            android:id="@+id/manage_account"
+            android:title="@string/manage_acount" >
+           <menu>
+               <item android:id="@+id/changepass"
+                   android:title="@string/change_password"/>
+               <item
+                   android:id="@+id/signout"
+                   android:title="@string/logout" />
+           </menu>
+
+        </item>
+
+
+</menu>
